@@ -1,0 +1,8 @@
+datasource-config:
+  blood-test-file-path: "bloodTestConfig.json"
+  blood-test-root-prop: "bloodTestConfig"
+  blood-test-identifier-property-name: "name"
+api-config:
+  blood-test:
+    match-ratio-threshold: 60.0
+    threshold-property-name: "threshold"

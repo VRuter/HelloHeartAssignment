@@ -1,0 +1,58 @@
+.app {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+.card-title {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #f72246;
+}
+
+.card-body {
+  background-color: #f7f7f7;
+  min-height: 300px;
+  text-align: left;
+  padding: 20px;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.textbox-input {
+  width: 400px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-container {
+  margin-top: 40px;
+  min-height: 60px;
+}
+
+.results-container.hidden {
+  visibility: hidden;
+}
+
+.submit-button-override {
+  font-weight: bolder !important;
+  border-color: #7ba818 !important;
+  background-color: #7ba818 !important;
+}
+
+.processing-spinner {
+  margin: 20px;
+  text-align: center;
+}
+
+.processing-spinner.hidden {
+  visibility: hidden;
+}
