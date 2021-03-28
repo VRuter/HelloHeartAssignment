@@ -156,7 +156,7 @@ export default class BloodTestEvaluator extends React.Component {
         }
 
         if (results.data.matchSuccess === true) {
-          return <Alert color={color}>{results.data.officialName}: {results.data.evaluationResult}</Alert>
+          return <Alert color={color}>{results.data.officialName}: {results.data.evaluationResult}!</Alert>
         } else {
           return <Alert color={color}>{results.data.evaluationResult}</Alert>
         }
